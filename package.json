@@ -4,7 +4,7 @@
   "description": "Socket server for Hongik univ. graduation project",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.6",
     "@babel/preset-env": "^7.12.1",
-    "babel-node": "^0.0.1-security"
+    "babel-node": "^0.0.1-security",
+    "socket.io": "^3.0.0"
   }
 }
