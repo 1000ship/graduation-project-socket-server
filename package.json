@@ -1,0 +1,28 @@
+{
+  "name": "graduation-project-socket-server",
+  "version": "1.0.0",
+  "description": "Socket server for Hongik univ. graduation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1000ship/graduation-project-socket-server.git"
+  },
+  "author": "1000ship",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1000ship/graduation-project-socket-server/issues"
+  },
+  "homepage": "https://github.com/1000ship/graduation-project-socket-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "babel-node": "^0.0.1-security"
+  }
+}
