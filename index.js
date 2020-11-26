@@ -1,6 +1,6 @@
 import socket from "socket.io";
 import http from "http";
-import { getComments, putComment } from "./comments/CommentAPI";
+import { deleteComment, getComments, putComment } from "./comments/CommentAPI";
 
 const PORT = 4001;
 
@@ -16,6 +16,7 @@ const io = socket(server, {
     credentials: true,
   },
 });
+
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
