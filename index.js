@@ -31,4 +31,8 @@ io.on("connection", (socket) => {
   socket.on("PUT_COMMENT", ({ id, commentObject }) => {
     putComment(id, commentObject);
   });
+
+  socket.on("DELETE_COMMENT", ({ id, condition }) => {
+    deleteComment(id, condition);
+  });
 });
